@@ -6,7 +6,7 @@ function character(name, profession, gender, age, strength, hitPoints) {
     this.strength = strength;
     this.hitPoints = hitPoints;
     this.printStats = function () {
-        console.log("Name: " + this.name, "Profession: " + this.profession, "Gender: " + this.gender, "Age: " + this.age, "Strength: " + this.strength, "Hit Points: " + this.hitPoints)
+        console.log("Name: " + this.name, "\nProfession: " + this.profession, "\nGender: " + this.gender, "\nAge: " + this.age, "\nStrength: " + this.strength, "\nHit Points: " + this.hitPoints + "\n")
     }
 };
 
